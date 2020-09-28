@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 400;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  line-height: 1.7;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+}
+@media only screen and (min-width: 600px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+details h1,
+details h2 {
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+details h1 {
+  font-size: 3rem;
+}
+@media only screen and (min-width: 800px) {
+  details h1 {
+    font-size: 7rem;
+  }
+}
+details h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1.5em;
+  margin-top: 0.25em;
+}
+@media only screen and (min-width: 800px) {
+  details h2 {
+    font-size: 2.5rem;
+  }
+}
+details p {
+  margin: 0 auto 2em;
+  max-width: 700px;
+  width: 100%;
+}
+details strong {
+  display: block;
+  font-weight: bold;
+  margin-top: 2em;
+}
+details small {
+  display: block;
+  font-size: 1rem;
+  margin-top: 4em;
+  opacity: 0.8;
+}
+details quote {
+  display: block;
+  font-family: "Georgia";
+  font-size: 1.75rem;
+  font-style: italic;
+  line-height: normal;
+  margin: 1em 0;
+}
+details code {
+  background: #ffffff30;
+  border-radius: 5px;
+  display: block;
+  font-family: monospace;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding: 0.5em;
+}
+details button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  font-size: inherit;
+  outline: none;
+  border: 0;
+  font-family: inherit;
+}
+details .btn {
+  padding: 1em 2em;
+  border: 2px solid white;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;
+  min-width: 200px;
+  cursor: pointer;
+  background: #ffffff;
+  color: #477bca;
+  font-weight: 700;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+details .btn:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+details summary::-webkit-details-marker {
+  display: none;
+}
+details + details {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+details .level {
+  background: #477bca;
+  bottom: 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  left: 0;
+  overflow: auto;
+  padding: 7em 2em 2em;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+details .emoij {
+  display: block;
+  font-size: 3rem;
+  margin-bottom: -0.5em;
+  margin-top: 1em;
+}
